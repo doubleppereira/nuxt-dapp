@@ -1,0 +1,29 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@reown/appkit": "^1.6.9",
+    "@reown/appkit-adapter-wagmi": "^1.6.9",
+    "@tanstack/vue-query": "^5.67.2",
+    "@wagmi/vue": "^0.1.11",
+    "buffer": "^6.0.3",
+    "nuxt": "^3.16.0",
+    "viem": "^2.23.9",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0",
+    "wagmi": "^2.14.12"
+  },
+  "packageManager": "yarn@1.22.21+sha1.1959a18351b811cdeedbd484a8f86c3cc3bbaf72",
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.13.1",
+    "stream-browserify": "^3.0.0"
+  }
+}
