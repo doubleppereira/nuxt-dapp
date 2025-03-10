@@ -1,8 +1,9 @@
 <template>
   <div class="container mx-auto p-4">
-    <h1 class="text-2xl font-bold mb-6">Ethereum Balance Checker</h1>
+    <h1 class="text-2xl font-bold mb-6">Lukso Balance Checker</h1>
+    <LuksoWallets />
     <appkit-button />
-    <EthBalance v-if="isConnected" />
+    <LyxBalance v-if="isConnected" />
   </div>
 </template>
 

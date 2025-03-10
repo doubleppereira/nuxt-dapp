@@ -1,6 +1,6 @@
 <template>
   <div class="mt-6 p-4 border rounded-lg">
-    <h2 class="text-xl font-bold mb-2">ETH Balance</h2>
+    <h2 class="text-xl font-bold mb-2">Lyx Balance</h2>
 
     <div v-if="isLoading">
       <p>Loading balance...</p>
@@ -15,7 +15,7 @@
     <div v-else-if="data">
       <div class="flex items-center">
         <div class="mr-2 font-medium">Balance:</div>
-        <div class="text-lg font-bold">{{ formatEther(data.value) }} ETH</div>
+        <div class="text-lg font-bold">{{ formatEther(data.value) }} Lyx</div>
       </div>
 
       <div class="mt-4">
